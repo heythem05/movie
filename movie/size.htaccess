@@ -1,0 +1,19 @@
+# Enable file uploads
+php_value file_uploads 1
+
+# Maximum size of a single uploaded file
+php_value upload_max_filesize 100M
+
+# Maximum size of all POST data (including files)
+php_value post_max_size 100M
+
+# Maximum execution time of scripts in seconds
+php_value max_execution_time 300
+
+# Maximum input time (time to parse POST data)
+php_value max_input_time 300
+
+AddType video/mp4 .mp4
+AddType video/ogg .ogv
+AddType video/webm .webm
+
